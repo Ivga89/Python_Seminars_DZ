@@ -14,7 +14,7 @@ for i in range(0, 10):
     randomList.append(randint(1, 10))
     
 print(randomList)
-n = int(input('Введите число для поиска в массиве: '))
+n = int(input('Введите число от 0 до 10 для поиска в массиве: '))
 count = 0
 for i in range(len(randomList)):
     if randomList[i] == n:
